@@ -9,5 +9,6 @@
 
 LSMTree* initializeLSM(int flushLimit){
     // here we initialize our LSM tree
+    
     LSMTree* tree = (LSMTree*)malloc(sizeof(LSMTree));
 }
