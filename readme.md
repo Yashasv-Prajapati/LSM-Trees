@@ -6,9 +6,7 @@ The team members are -
 3. Yashasav Prajapati (2021CSB1143)
 
 ##### This project is under the mentorship of Ms. Akansha_
-#
-#
-#
+
 LSM trees are used in several NoSQL databases. LSM-tree has a higher storage space usage efficiency than B-Trees. The main reason why LSM provides high write throughput is that every write request is actually performed only “in-memory” in contrast to traditional B-Tree based implementation where the updates are done to disk which can trigger an update to an index making it very expensive.
 
 # Instructions to run the program
@@ -24,7 +22,8 @@ or
 python3 testcase.py
 ```
 
-###### This will create a file named `TestCase.txt`
+This will create a file named `TestCase.txt`
+
 -----------------------------------------------
 There are several files, the file to run is `main.cpp`. 
 The file can be run using the command 
@@ -45,5 +44,7 @@ These are the 3 operations available. You first have to insert the data, so for 
 
 Now the insertion will take time as it is writing, flushing and merging data in the background while the program is running. 
 After insertion is done, the folder `table` will contain several compaction files, which have been formed after merging several SSTables.
+
+Now the search and delete operation can be performed easily. 
 
 
