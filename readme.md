@@ -15,10 +15,6 @@ LSM trees are used in several NoSQL databases. LSM-tree has a higher storage spa
 Before running the final program, you need to make a testcase file, and for that, you need to run `testcase.py` 
 To run that, use the command
 ``` sh
-python testcase.py
-```
-or 
-``` sh
 python3 testcase.py
 ```
 
